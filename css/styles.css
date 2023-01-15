@@ -116,6 +116,11 @@ header > .container {
   position: relative;
 }
 
+.studio,
+.portfolio {
+  color: var(--color-ocean);
+}
+
 .header-link.current::after {
   content: "";
   position: absolute;
@@ -124,7 +129,7 @@ header > .container {
   border-radius: 2px;
   background-color: var(--color-ocean);
   left: 0;
-  bottom: -24px;
+  bottom: -29px;
 }
 
 .header-link:focus,
@@ -309,8 +314,7 @@ header > .container {
   margin-left: 480px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
-  transition: background-color var(--transition), color var(--transition),
-    box-shadow var(--transition);
+  transition: background-color var(--transition), box-shadow var(--transition);
 }
 
 .hero-btn:hover,
@@ -340,7 +344,6 @@ header > .container {
   background-color: var(--color-creamy);
   padding: 24px 100px;
   border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .work-icon {
@@ -481,7 +484,7 @@ header > .container {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color var(--transition), box-shadow var(--transition);
+  transition: background-color var(--transition);
 }
 
 .social-networks-icon {
@@ -491,7 +494,6 @@ header > .container {
 .social-networks-link:hover,
 .social-networks-link:focus {
   background-color: var(--color-ocean);
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .about-function {
@@ -615,14 +617,12 @@ header > .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: background-color var(--transition), box-shadow var(--transition);
+  transition: background-color var(--transition);
 }
 
 .footer-link-icon:hover,
 .footer-link-icon:focus {
   background-color: var(--color-background-icon-footer-hover);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .footer-icon {
